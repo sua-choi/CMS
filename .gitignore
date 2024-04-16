@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+.vscode/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Logs
+log/
+wandb/
+data/features/
+data/memory
+
+#slurm
+*.out
+
+models/*.pth
+*.pt
+*.gif
